@@ -1,3 +1,4 @@
 # CICDCourse
 
-ِEdit Markdown to clipboard 
+Copied Markdown to clipboard edited
+
