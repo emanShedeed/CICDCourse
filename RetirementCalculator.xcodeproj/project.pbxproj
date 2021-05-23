@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09EB95C696C85B1278831A74 /* Pods_RetirementCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA74312D1024CD9849F3E837 /* Pods_RetirementCalculator.framework */; };
+		680B46189B848BCDD5D2E3C7 /* Pods_RetirementCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538368A786E22D7D27C1D10E /* Pods_RetirementCalculatorTests.framework */; };
 		BD92A86E265A044B005E025B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92A86D265A044B005E025B /* AppDelegate.swift */; };
-		BD92A870265A044B005E025B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92A86F265A044B005E025B /* SceneDelegate.swift */; };
 		BD92A872265A044B005E025B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92A871265A044B005E025B /* ViewController.swift */; };
 		BD92A875265A044B005E025B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD92A873265A044B005E025B /* Main.storyboard */; };
 		BD92A877265A044D005E025B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD92A876265A044D005E025B /* Assets.xcassets */; };
 		BD92A87A265A044D005E025B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD92A878265A044D005E025B /* LaunchScreen.storyboard */; };
 		BD92A885265A044D005E025B /* RetirementCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92A884265A044D005E025B /* RetirementCalculatorTests.swift */; };
 		BD92A890265A044D005E025B /* RetirementCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92A88F265A044D005E025B /* RetirementCalculatorUITests.swift */; };
+		F1271B6F1DDBE38BC6D851FC /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7D0F41FFF1F6F395C4B382 /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB92A1D5DCE9013EE2D5DA2 /* Pods-RetirementCalculator-RetirementCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculator-RetirementCalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-RetirementCalculator-RetirementCalculatorUITests/Pods-RetirementCalculator-RetirementCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AA95475D769090A70AE73D1 /* Pods-RetirementCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-RetirementCalculatorTests/Pods-RetirementCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		538368A786E22D7D27C1D10E /* Pods_RetirementCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6123CDB6AFBC77B5B2756807 /* Pods-RetirementCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculator.release.xcconfig"; path = "Target Support Files/Pods-RetirementCalculator/Pods-RetirementCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		987F1E1DF7ED22CF9B16FF07 /* Pods-RetirementCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-RetirementCalculatorTests/Pods-RetirementCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB836A0624A074B59E7209EF /* Pods-RetirementCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculator.debug.xcconfig"; path = "Target Support Files/Pods-RetirementCalculator/Pods-RetirementCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		ADEBAFCAD50FE46D2EB64D91 /* Pods-RetirementCalculator-RetirementCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalculator-RetirementCalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-RetirementCalculator-RetirementCalculatorUITests/Pods-RetirementCalculator-RetirementCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BD92A86A265A044B005E025B /* RetirementCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92A86D265A044B005E025B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD92A86F265A044B005E025B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BD92A871265A044B005E025B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD92A874265A044B005E025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD92A876265A044D005E025B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		BD92A88B265A044D005E025B /* RetirementCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92A88F265A044D005E025B /* RetirementCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITests.swift; sourceTree = "<group>"; };
 		BD92A891265A044D005E025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA74312D1024CD9849F3E837 /* Pods_RetirementCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7D0F41FFF1F6F395C4B382 /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculator_RetirementCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EB95C696C85B1278831A74 /* Pods_RetirementCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680B46189B848BCDD5D2E3C7 /* Pods_RetirementCalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1271B6F1DDBE38BC6D851FC /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01755E95C5D097C01DB75F42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB836A0624A074B59E7209EF /* Pods-RetirementCalculator.debug.xcconfig */,
+				6123CDB6AFBC77B5B2756807 /* Pods-RetirementCalculator.release.xcconfig */,
+				0EB92A1D5DCE9013EE2D5DA2 /* Pods-RetirementCalculator-RetirementCalculatorUITests.debug.xcconfig */,
+				ADEBAFCAD50FE46D2EB64D91 /* Pods-RetirementCalculator-RetirementCalculatorUITests.release.xcconfig */,
+				2AA95475D769090A70AE73D1 /* Pods-RetirementCalculatorTests.debug.xcconfig */,
+				987F1E1DF7ED22CF9B16FF07 /* Pods-RetirementCalculatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6EB71D2ABDB6276BE0D029D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA74312D1024CD9849F3E837 /* Pods_RetirementCalculator.framework */,
+				FF7D0F41FFF1F6F395C4B382 /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework */,
+				538368A786E22D7D27C1D10E /* Pods_RetirementCalculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD92A861265A044B005E025B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				BD92A883265A044D005E025B /* RetirementCalculatorTests */,
 				BD92A88E265A044D005E025B /* RetirementCalculatorUITests */,
 				BD92A86B265A044B005E025B /* Products */,
+				01755E95C5D097C01DB75F42 /* Pods */,
+				6EB71D2ABDB6276BE0D029D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				BD92A86D265A044B005E025B /* AppDelegate.swift */,
-				BD92A86F265A044B005E025B /* SceneDelegate.swift */,
 				BD92A871265A044B005E025B /* ViewController.swift */,
 				BD92A873265A044B005E025B /* Main.storyboard */,
 				BD92A876265A044D005E025B /* Assets.xcassets */,
@@ -135,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD92A894265A044D005E025B /* Build configuration list for PBXNativeTarget "RetirementCalculator" */;
 			buildPhases = (
+				DF86E60645336F70A816051E /* [CP] Check Pods Manifest.lock */,
 				BD92A866265A044B005E025B /* Sources */,
 				BD92A867265A044B005E025B /* Frameworks */,
 				BD92A868265A044B005E025B /* Resources */,
@@ -152,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD92A897265A044D005E025B /* Build configuration list for PBXNativeTarget "RetirementCalculatorTests" */;
 			buildPhases = (
+				E5DFB0D3841274E4468FBE5D /* [CP] Check Pods Manifest.lock */,
 				BD92A87C265A044D005E025B /* Sources */,
 				BD92A87D265A044D005E025B /* Frameworks */,
 				BD92A87E265A044D005E025B /* Resources */,
@@ -170,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD92A89A265A044D005E025B /* Build configuration list for PBXNativeTarget "RetirementCalculatorUITests" */;
 			buildPhases = (
+				568C03C2721A41EC3809D17B /* [CP] Check Pods Manifest.lock */,
 				BD92A887265A044D005E025B /* Sources */,
 				BD92A888265A044D005E025B /* Frameworks */,
 				BD92A889265A044D005E025B /* Resources */,
@@ -253,6 +294,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		568C03C2721A41EC3809D17B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetirementCalculator-RetirementCalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF86E60645336F70A816051E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetirementCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5DFB0D3841274E4468FBE5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetirementCalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD92A866265A044B005E025B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +370,6 @@
 			files = (
 				BD92A872265A044B005E025B /* ViewController.swift in Sources */,
 				BD92A86E265A044B005E025B /* AppDelegate.swift in Sources */,
-				BD92A870265A044B005E025B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +542,7 @@
 		};
 		BD92A895265A044D005E025B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB836A0624A074B59E7209EF /* Pods-RetirementCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +562,7 @@
 		};
 		BD92A896265A044D005E025B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6123CDB6AFBC77B5B2756807 /* Pods-RetirementCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +582,7 @@
 		};
 		BD92A898265A044D005E025B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA95475D769090A70AE73D1 /* Pods-RetirementCalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +605,7 @@
 		};
 		BD92A899265A044D005E025B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987F1E1DF7ED22CF9B16FF07 /* Pods-RetirementCalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +628,7 @@
 		};
 		BD92A89B265A044D005E025B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB92A1D5DCE9013EE2D5DA2 /* Pods-RetirementCalculator-RetirementCalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +649,7 @@
 		};
 		BD92A89C265A044D005E025B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEBAFCAD50FE46D2EB64D91 /* Pods-RetirementCalculator-RetirementCalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
