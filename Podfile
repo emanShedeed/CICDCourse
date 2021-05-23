@@ -9,6 +9,7 @@ target 'RetirementCalculator' do
 
    pod 'AppCenter/Analytics'
    pod 'AppCenter/Crashes'
+   
   target 'RetirementCalculatorTests' do
     inherit! :search_paths
     # Pods for testing
