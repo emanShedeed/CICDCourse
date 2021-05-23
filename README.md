@@ -1,3 +1,3 @@
 # CICDCourse
 
-ِEdit Markdown to clipboard secondely
+ِEdit Markdown to clipboard 
